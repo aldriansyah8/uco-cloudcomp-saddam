@@ -1,0 +1,52 @@
+:root {
+  --brand-cobalt: #1f4fd6;
+  --brand-black: #0b0b0d;
+}
+
+body {
+  background-color: #f4f5f7;
+}
+
+.navbar-custom {
+  background-color: var(--brand-black);
+  border-bottom: 3px solid var(--brand-cobalt);
+}
+
+.card-header.bg-dark {
+  background-color: var(--brand-black) !important;
+}
+
+.btn-dark {
+  background-color: var(--brand-black);
+  border-color: var(--brand-black);
+}
+
+.btn-dark:hover {
+  background-color: var(--brand-cobalt);
+  border-color: var(--brand-cobalt);
+}
+
+.table-hover tbody tr:hover {
+  background-color: #eef2ff;
+}
+
+#kaosTableBody td {
+  vertical-align: middle;
+}
+
+.badge-harga {
+  font-variant-numeric: tabular-nums;
+}
+
+.action-btn {
+  padding: 0.25rem 0.5rem;
+}
+
+.toast.bg-success { background-color: #198754 !important; }
+.toast.bg-danger  { background-color: #dc3545 !important; }
+.toast.bg-info    { background-color: var(--brand-cobalt) !important; }
+
+/* Cursor pointer untuk icon mata password */
+.toggle-password {
+  cursor: pointer;
+}
